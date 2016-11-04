@@ -90,9 +90,7 @@
  <div class="container" id="book">
 	<div class="row clearfix">   <!--利用bootstrap做响应式图片-->
 		<div class="col-md-12">
-<!--		<div class=" book_img">-->
-      <img src="images/book2.jpg" id="book2" height="3123px" usemap="#Map" border="0" class="img-responsive center-block"/>
-<!--       </div>-->
+      <img src="images/book2.jpg" id="book2" height="3123px" usemap="#Map" border="0" class="img-responsive center-block"/>  
 <map name="Map" id="Map">
   <area shape="rect" title="Head First HTML 与 CSS" coords="64,47,224,249" href="#/book11"/>
   <area shape="rect" title="HTML5秘籍" coords="312,48,474,247" href="#/book12" />
@@ -118,15 +116,15 @@
   <div id="book_content" ng-view></div>  <!--显示书的信息-->
       <div class="col-md-12 footer">
           <div class="col-md-6 col-md-offset-3">
-            关于本站 | 版权信息 | 留言反馈 | 帮助中心
-            <br> Copyright&copy;2016 Tencent. All Rights Reserved. firm66版权所有
+          关于本站 | 版权信息 | 留言反馈 | 帮助中心
+            <br> Copyright&copy;2016 firm66. All Rights Reserved. 
     </div>
     </div>
      
 <script src="js/jquery-2.1.4.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
-<script src="http://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>  <!--利用angular-->
+<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/angular-route.js" type="text/javascript" charset="utf-8"></script>  <!--利用angular-->
         <script type="text/javascript">
             angular.module('routingDemoApp',['ngRoute'])
             .config(['$routeProvider', function($routeProvider){

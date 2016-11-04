@@ -114,4 +114,10 @@ var myChart = echarts.init(document.getElementById('section3_echarts'));
     ]
 };
 			myChart.setOption(option); 
-
+$(function(){
+    if($(window).innerWidth()>993){ /*innerWidth包括滚动条*/
+ document.getElementById("resume_left").style.height=document.getElementById("resume_right").scrollHeight+"px"; /*左边右边相等*/
+    document.getElementById("resume_left").style.backgroundSize="cover"; 
+    /*背景图片适应高度*/
+    }
+})
