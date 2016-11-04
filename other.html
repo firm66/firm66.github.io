@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet"  type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet"  type="text/css" href="css/index.css">
+    <style type="text/css">
+     #other{
+        margin-top:70px;
+        }
+        .other_1{
+       width:80%;
+       height:600px;
+       margin:0 auto;
+/*        background-color:rgba(255,255,255,0.4);*/
+/*          多张图片做背景  */
+         background-image:url(images/show-4.jpg),url(images/show-1.jpg),url(images/show-2.jpg),url(images/other3.jpg);
+         background-position:left top,right top,right bottom,left bottom;
+        background-repeat: no-repeat;
+        background-size: 30% 30%;
+        border-radius: 20px;
+        -moz-box-shadow:0px 0px 30px aqua;  /* For Firefox3.6+ */
+	   -webkit-box-shadow:0px 0px 30px aqua;  /* For Chrome5+, Safari5+ */
+        box-shadow:0px 0px 30px aqua;
+        border:2px groove lightblue;
+       }
+        .other_2{
+       width:80%;
+       height:600px;
+       margin:0 auto;
+	    background:url(images/other2.jpg) no-repeat;
+        background-size: 100% 600px;
+       border-radius: 50%;
+        border:none;
+       -moz-box-shadow:0px 0px 10px #fff;   /* For Firefox3.6+ */
+	   -webkit-box-shadow:0px 0px 10px #fff;  /* For Chrome5+, Safari5+ */
+	   box-shadow:0px 0px 10px #fff;  /* For Latest Opera */
+        margin-top:-600px;
+         z-index: 1;
+      }
+        .other_2 p{
+            color:#666;
+            font-size: 22px;
+            text-align: center;
+            line-height: 600px;
+        }
+        /* demo style */
+    .bumpy-char {
+        line-height: 3.4em;
+        position: relative;
+        }
+    @media screen and (max-width:768px) {  /*必须写*/
+     #index  .header .navbar li a{
+        background-color:rgba(0,0,0,0.4);
+        border-bottom:1px solid #e7e7e7;
+    }
+     #index  .header .navbar li a img{
+    width:20px;height:20px;
+    }
+     #index  .header .navbar-brand{
+        padding:0px 15px;
+    }
+     #index .com_content{
+        margin-top:56px;
+    }
+     .footer{
+    font-size: 14px;
+    }
+}
+@media  screen and (max-width:992px) { 
+    #other{width:100%;}
+}
+
+    </style>
+</head>
+<body>
+    	<div id="index">
+       <div class="container header">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html"  title="firm66的主页">firm66</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+						<li>
+                         <a href="https://firm66.github.io/blog">
+                         <img src="images/blog.ico"> <!--32px-->博客主页</a>
+						</li>
+						<li>
+							 <a href="resume.html">
+							 <img src="images/resume.png"> 个人简历</a>
+						</li>
+						<li>
+							 <a href="books.html">
+							 <img src="images/lizhi.ico"> 我的书架</a>
+						</li>
+						<li>
+							 <a href="comments.html">
+							 <img src="images/liuyan.ico" > 留言板</a>
+						</li>
+						<li>
+							  <a href="other.html">
+							 <img src="images/other.ico"> 其他</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+</div> 
+    </div>
+    <div id="other">
+    <div class="other_1">
+       
+    </div>   
+    <div class="other_2">
+         <p id="example">小编正在努力开发中,请耐心等待......</p>
+    </div>
+    </div>
+     <div class="col-md-12 footer">
+          <div class="col-md-6 col-md-offset-3">
+            关于本站 | 版权信息 | 留言反馈 | 帮助中心
+            <br> Copyright&copy;2016 Tencent. All Rights Reserved. firm66版权所有
+    </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/jquery.bumpytext.packed.js"></script>
+    <script type="text/javascript" src="js/easying.js"></script> <!--文字跳动-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+//<![CDATA[
+$(document).ready(function() {
+$('p#example').bumpyText();
+});            //]]>
+</script>
+</body>
+</html>

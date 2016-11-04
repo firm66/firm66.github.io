@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+  <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script src="http://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>  <!--利用angular-->
+<style>
+    html,body,div,p,h1,h2,h3,h4,h5,span{
+    margin:0;padding:0;
+    }
+    body{width:100%;}
+    img{border:0;}
+    h1{font-family:"Helvetica","Arial",serif;
+        font-size:40px;text-align:center;color:#000;}
+    div#book{
+        width:74%;
+        background-color: aqua;
+        margin-left:1%;
+    }
+    div#content{
+        width:23%;height:500px;
+        position:fixed;
+        right:1%;top:46px;
+        background: url(images/567.jpg) no-repeat;
+        background-size:cover;
+        padding:90px 60px;
+        box-sizing: border-box;
+        color:#333;
+        overflow: hidden;
+        border:2px dashed aqua;
+    }
+    </style>
+</head>
+<body ng-app='routingDemoApp'>
+<h1>firm66的书架</h1>
+<div id="book">
+<img src="images/book2.jpg" width="100%" height="3123px" usemap="#Map" border="0" />
+<map name="Map" id="Map">
+  <area shape="rect" title="Head First HTML 与 CSS" coords="64,47,224,249" href="#/book11"/>
+  <area shape="rect" title="HTML5秘籍" coords="312,48,474,247" href="#/book12" />
+ <area shape="rect" title="CSS禅意花园" coords="65,295,225,495" href="#/book13"/>
+ <area shape="rect" title="CSS设计指南" coords="311,294,472,495" href="#/book14"/>
+ <area shape="rect" title="CSS实战手册" coords="531,295,691,496" href="#/book15"/>
+  <area shape="rect" title="JavaScript权威指南" coords="63,1049,225,1250" href="#/book21"/>
+  <area shape="rect" title="Head First JavaScript" coords="311,1049,472,1249" href="#/book22" />
+  <area shape="rect" title="JavaScript学习指南" coords="535,1047,697,1251" href="#/book23"/>
+  <area shape="rect" title="JavaScript DOM编程艺术" coords="783,1049,945,1249" href="#/book24" />
+  <area shape="rect" title="JavaScript入门经典" coords="64,1297,224,1498" href="#/book25" />
+  <area shape="rect" title="JavaScript基础教程" coords="312,1294,471,1493" href="#/book26" />
+  <area shape="rect" title="JavaScript高级程序设计" coords="536,1295,696,1497" href="#/book27" />
+  <area shape="rect" title="JQuery基础教程" coords="64,1540,224,1740" href="#/book28" />
+  <area shape="rect" title="JQuery实战" coords="312,1538,472,1742" href="#/book29" />
+  <area shape="rect" title="了不起的Node.js" coords="64,2060,225,2259" href="#/book31" />
+  <area shape="rect" title="响应式Web设计" coords="311,2060,471,2261" href="#/book32" />
+</map>
+</div>
+  <div id="content" ng-view></div>  <!--显示书的信息-->
+     
+        <script>
+            angular.module('routingDemoApp',['ngRoute'])
+            .config(['$routeProvider', function($routeProvider){
+                $routeProvider
+                .when('/',{template:'1111111111111111111这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面这是首页页面11111'})
+                .when('/book11',{template:'222222222222222222222222这是电脑分类页面这是电脑页面'})
+                .when('/book12',{template:'3333333333333333333333这是打印机页面'})
+                .when('/book13',{template:'44444444444444444444其他其他'})
+                .when('/book21',{template:'222222222222222222222222这是电脑分类页面这是电脑页面'})
+                .when('/book22',{template:'3333333333333333333333这是打印机页面'})
+                .when('/book23',{template:'44444444444444444444其他其他'})
+                .otherwise({redirectTo:'/'});
+            }]);
+        </script>
+     
+     
+</body>
+</html>

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*other Css*/
+body{font-size:12px;font-family: '微软雅黑';}
+.miapShuListBox{}
+.miapShuListBox h3{font-size:16px; padding:0px; margin:0px; line-height:25px; color:#444;;}
+.miapShuListBox p{color:#666; line-height:200%; margin-bottom:30px; background:#f8f8f8; padding:10px; border:1px solid #d5d5d5;font-family: Arial, '微软雅黑';}
+
+/*返回顶部*/
+.returnBox{ width:1000px; height:0px; margin: 0 auto; z-index:1000;}
+#returnTop{ width:20px; height:55px; position:fixed; bottom:30px; margin-left:1020px; background:#ddd; cursor:pointer;}
+
+
+
+
