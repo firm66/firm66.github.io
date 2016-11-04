@@ -108,7 +108,7 @@ var myChart = echarts.init(document.getElementById('section3_echarts'));
                   barBorderRadius: 4,  //  
                 }
             },
-            data: [5,4,3,4,3,3,4,5,3,4,3],
+            data: [5,4,2,4,3,4,4,4,2,4,4],
             animationDuration: 3000, //初始动画时长
         }
     ]
