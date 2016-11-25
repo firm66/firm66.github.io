@@ -3,7 +3,7 @@ html,body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p,spa
     padding:0;
 }
 ul,li{list-style-type: none;}
-img{border:0;display: block;}
+img{border:0;}
  body {
       position: relative; 
       font-size: 16px;
