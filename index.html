@@ -1,16 +1,360 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><title>firm66的主页</title><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"><link type="text/css" rel="stylesheet" href="css/flexslider.css"><link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css"><link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css"><link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="css/index.css"></head><body><div id="index"><div class="container header"><div class="row"><div class="col-md-12"><nav class="navbar navbar-default" role="navigation"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html" title="firm66的主页">firm66</a></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav navbar-right"><li><a href="https://firm66.github.io/blog"><img src="images/blog.ico"><!--32px--> 博客主页</a></li><li><a href="resume.html"><img src="images/resume.png"> 个人简历</a></li><li><a href="books.html"><img src="images/lizhi.ico"> 我的书架</a></li><li><a href="comments.html"><img src="images/liuyan.ico"> 留言板</a></li><li><a href="other.html"><img src="images/other.ico"> 其他</a></li></ul></div></nav></div></div></div><div id="main"><div class="row"><div class="col-md-12"><section id="section"><!--轮播图 --><div class="bannerPane"><section class="slider"><div class="flexslider"><ul class="slides"><li><a href="javascript:void(0);"></a><img src="images/show-1.jpg" alt="个人网站图片"></li><li><a href="javascript:void(0);"></a><img src="images/show-2.jpg" alt="个人网站图片"></li><li><a href="javascript:void(0);"></a><img src="images/show-3.jpg" alt="个人网站图片"></li><li><a href="javascript:void(0);"></a><img src="images/show-4.jpg" alt="个人网站图片"></li></ul></div></section></div></section></div></div><!--轮播图结束，portfolio开始--><div class="container portfolio"><div class="row title"><div class="col-md-12"><img src="images/index1.jpg"><h1>前端总结</h1></div></div><div class="row content"><div class="col-md-10 col-md-offset-1"><!--居中--><div class="col-md-4"><div class="thumbnail"><img alt="前端总结" src="images/web1.jpg"><div class="caption"><h3>WEB前端工程师</h3><p>Web前端开发是从网页制作演变而来的，现在的网页不再只是承载单一的文字和图片，各种丰富媒体让网页的内容更加生动，网页上软件化的交互形式为用户提供了更好的使用体验，这些都是基于前端技术实现的。</p></div></div></div><div class="col-md-4"><div class="thumbnail"><img alt="前端总结" src="images/web2.png"><div class="caption"><h3>学习路线图</h3><p>web前端学习包括HTML5、CSS3、JavaScript、JQuery、Ajax等，还包括Bootstrap、JQueryUI等框架，可以在慕课网、网易云课堂、菜鸟教程等学习网站进行详细的学习。</p><p><a class="btn" href="https://firm66.github.io/blog/2016/08/21/WEB%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/">查看详情>></a></p></div></div></div><div class="col-md-4"><div class="thumbnail"><img alt="前端总结" src="images/书架.jpg"><div class="caption"><h3>我的书架</h3><p>涵盖了《Head First HTML与CSS》、《Head First JavaScript》《Head First JQuery》系列，《JavaScript DOM编程艺术》、《CSS秘密花园》等书籍,欢迎进入我的书架查看。</p><p><a class="btn" href="books.html">我的书架>></a></p></div></div></div></div></div><div class="row content"><div class="col-md-10 col-md-offset-1"><div class="col-md-4"><div class="thumbnail"><img alt="前端总结" src="images/blog_img-02.jpg"><div class="caption"><h3>CSS预处理器</h3><p>它是一种专门的编程语言(如Sass,Less)，进行Web页面样式设计，然后再编译成正常的CSS文件，以供项目使用；例如可以在CSS中使用变量、简单的逻辑程序、函数等，无需考虑浏览器兼容性，使CSS更简洁、可读性更佳、易于代码等。</p><!--
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>firm66的主页</title>
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link type="text/css" rel="stylesheet" href="css/flexslider.css" />
+	<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+	<div id="index">
+       <div class="container header">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html" title="firm66的主页">firm66</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+						<li>
+                         <a href="https://firm66.github.io/blog">
+                         <img src="images/blog.ico"> <!--32px-->博客主页</a>
+						</li>
+						<li>
+							 <a href="resume.html">
+							 <img src="images/resume.png"> 个人简历</a>
+						</li>
+						<li>
+							 <a href="books.html">
+							 <img src="images/lizhi.ico"> 我的书架</a>
+						</li>
+						<li>
+							 <a href="comments.html">
+							 <img src="images/liuyan.ico" > 留言板</a>
+						</li>
+						<li>
+							  <a href="other.html">
+							 <img src="images/other.ico"> 其他</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+</div>  
+    <div id="main">
+    <div class="row">
+    <div class="col-md-12">
+    <section id="section"> <!--轮播图 -->
+		<div class="bannerPane">
+			<section class="slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li><a href="javascript:void(0);"></a><img src="images/show-1.jpg" alt="个人网站图片"/></li>
+						<li><a href="javascript:void(0);"></a><img src="images/show-2.jpg" alt="个人网站图片"/></li>
+						<li><a href="javascript:void(0);"></a><img src="images/show-3.jpg" alt="个人网站图片"/></li>
+						<li><a href="javascript:void(0);"></a><img src="images/show-4.jpg" alt="个人网站图片"/></li>
+					</ul>
+				</div>
+			</section>
+       </div>
+	</section></div>
+        </div>
+        <!--轮播图结束，portfolio开始-->
+         <div class="container portfolio">
+         <div class="row title">
+				<div class="col-md-12">
+         <img src="images/index1.jpg">
+        <h1>前端总结</h1></div></div>
+			<div class="row content">
+			<div class="col-md-10 col-md-offset-1">  <!--居中-->
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="前端总结" src="images/web1.jpg" />
+						<div class="caption">
+							<h3>
+								WEB前端工程师
+							</h3>
+							<p>
+								Web前端开发是从网页制作演变而来的，现在的网页不再只是承载单一的文字和图片，各种丰富媒体让网页的内容更加生动，网页上软件化的交互形式为用户提供了更好的使用体验，这些都是基于前端技术实现的。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="前端总结" src="images/web2.png" />
+						<div class="caption">
+							<h3>
+								学习路线图
+							</h3>
+							<p>
+								web前端学习包括HTML5、CSS3、JavaScript、JQuery、Ajax等，还包括Bootstrap、JQueryUI等框架，可以在慕课网、网易云课堂、菜鸟教程等学习网站进行详细的学习。
+							</p>
+							<p>
+								 <a class="btn" href="https://firm66.github.io/blog/2016/08/21/WEB%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/">查看详情>></a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="前端总结" src="images/书架.jpg" />
+						<div class="caption">
+							<h3>
+								我的书架
+							</h3>
+							<p>
+				             涵盖了《Head First HTML与CSS》、《Head First JavaScript》《Head First JQuery》系列，《JavaScript DOM编程艺术》、《CSS秘密花园》等书籍,欢迎进入我的书架查看。
+							</p>
+							<p>
+								 <a class="btn" href="books.html">我的书架>></a>
+							</p>
+						</div>
+					</div>
+				</div>
+                </div></div>
+					<div class="row content">
+				<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="前端总结" src="images/blog_img-02.jpg" />
+						<div class="caption">
+							<h3>
+								CSS预处理器
+							</h3>
+							<p>
+								它是一种专门的编程语言(如Sass,Less)，进行Web页面样式设计，然后再编译成正常的CSS文件，以供项目使用；例如可以在CSS中使用变量、简单的逻辑程序、函数等，无需考虑浏览器兼容性，使CSS更简洁、可读性更佳、易于代码等。
+							</p>
+<!--
 							<p>
 								 <a class="btn" href="#">阅读原文>></a>
 							</p>
---></div></div></div><div class="col-md-4"><div class="thumbnail"><img alt="前端总结" src="images/blog_img-03.jpg"><div class="caption"><h3>前端项目构建工具</h3><p>前端项目构建工具较多，有包管理:npm和bower,构建工具:webpack,gulp和grunt，建议用npm和gulp，当然最终也取决你的项目技术选型，例如react那你必然选npm和webpack，如果是AngularJS+ES5最好是选npm和gulp。</p><!--
+-->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="前端总结" src="images/blog_img-03.jpg" />
+						<div class="caption">
+							<h3>
+								前端项目构建工具
+							</h3>
+							<p>
+								前端项目构建工具较多，有包管理:npm和bower,构建工具:webpack,gulp和grunt，建议用npm和gulp，当然最终也取决你的项目技术选型，例如react那你必然选npm和webpack，如果是AngularJS+ES5最好是选npm和gulp。
+							</p>
+<!--
 							<p>
 								 <a class="btn" href="#">阅读原文>></a>
 							</p>
---></div></div></div><div class="col-md-4"><div class="thumbnail"><img alt="前端总结" src="images/blog_img-01.jpg"><div class="caption"><h3><a href="https://www.awesomes.cn/rank">前端框架</a></h3><p>前端框架发展趋势是React、Angular、Angular2、Ember、Vue、Backbone等，还有一些html框架，js框架，ui框架，动画库等，数不胜数，可以点击链接查看前端热门框架TOP 100和趋势，来慎重选择学习哪一种框架。</p><!--
+-->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="前端总结" src="images/blog_img-01.jpg" />
+						<div class="caption">
+							<h3>
+								<a href="https://www.awesomes.cn/rank">前端框架</a>
+							</h3>
+							<p>
+								前端框架发展趋势是React、Angular、Angular2、Ember、Vue、Backbone等，还有一些html框架，js框架，ui框架，动画库等，数不胜数，可以点击链接查看前端热门框架TOP 100和趋势，来慎重选择学习哪一种框架。
+							</p>
+<!--
 							<p>
 								 <a class="btn" href="#">阅读原文>></a>
 							</p>
---></div></div></div></div></div><!--row结束--></div><!--protfolio结束，services开始--><div class="container services"><div class="row title"><div class="col-md-12"><img src="images/index2.jpg"><h1>我的博客</h1></div></div><div class="row clearfix"><div class="col-md-12 column"><div class="row content"><div class="col-md-10 col-md-offset-1"><div class="col-md-3"><div class="align"><img src="images/service1.jpg"><br><a href="https://firm66.github.io/blog/2016/08/10/%E6%8A%80%E6%9C%AF%E6%9D%BF%E5%9D%97/"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="点击查看Blog教程">hexo+github搭建个人博客</button></a><p>搭建博客不难，前提是储备一些知识，比如会搭建Node服务器、安装并熟练使用Git，这样的话搭建配置两三天就可以完全搞定。接下来我们就可以像那些大牛一样写很多技术文章了，哈哈。</p></div></div><div class="col-md-3"><div class="align"><img src="images/service2.png"><br><a href="https://firm66.github.io/blog/2016/08/22/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E6%80%BB%E7%BB%93/"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="点击查看软件">好用的软件总结</button></a><p>本人比较爱好软件，下载安装一个软件就很有成就感，然后把一个软件玩熟了你会从中学到很多的知识。虽然不知道那些软件的原理和其中的奥秘，但是那些好玩有趣的东西确实需要我们去探索和发现。</p></div></div><div class="col-md-3"><div class="align"><img src="images/service3.jpg"><br><a href="https://firm66.github.io/blog/2016/08/22/%E9%9D%92%E6%98%A5/"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="点击阅读全文">青春</button></a><p>《青春》塞缪尔•厄尔曼：青春不是年华，而是心境；青春不是桃面、丹唇、柔膝，而是深沉的意志，恢宏的想象，炙热的恋情；青春是生命的深泉在涌流。<br><br></p></div></div><div class="col-md-3"><div class="align"><img src="images/service4.jpg"><br><a href="https://firm66.github.io/blog/2016/08/12/phpstudy%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="点击查看教程">phpstudy 安装教程</button></a><p>phpStudy是一个PHP调试环境的程序集成包。我们学前台的用来搭建服务器很好用，不过node更好用一点。。这里我们先学一下phpstudy安装。<br><br></p></div></div></div></div></div></div><div class="row title"><div class="col-md-12"><a href="https://firm66.github.io/blog/"><button type="button" class="btn btn-info lastbtn">进入博客主页 <img src="images/right.ico" alt="lastbtn"></button></a></div></div></div><!--services结束，--><div class="container mingyan"><div class="row title"><div class="col-md-12"><img src="images/index3.jpg"><h1>励志名言</h1></div></div><div class="row"><div class="col-md-12 column mingyan_p"><p class="example">当你的才华还撑不起你的野心的时候，你就应该静下心来学习；</p><p class="example">当你的能力还驾驭不了你的目标时，你就应该沉下心来历练；</p><p class="example">梦想，不是浮躁，而是沉淀和积累，只有拼出来的美丽，没有等出来的辉煌，</p><p class="example">机会永远是留给最渴望的那个人。</p></div></div></div><div class="container figure"><div class="row title"><div class="col-md-12"><img src="images/index4.jpg"><h1>代码整理</h1></div></div><div class="row content"><div class="col-md-12"><div class="col-md-2 col-md-offset-1"><a href="#" title="css"><img class="team-thumb img-circle" src="images/figure2.jpg" alt=""></a><h3>CSS3</h3><div class="job-position">层叠样式表</div></div><div class="col-md-2"><a href="#" title="javascript"><img class="team-thumb img-circle" src="images/figure3.jpg" alt=""></a><h3>JavaScript</h3><div class="job-position">脚本语言</div></div><div class="col-md-2"><a href="#" title="jquery"><img class="team-thumb img-circle" src="images/figure4.png" alt=""></a><h3>JQuery</h3><div class="job-position">轻量级的js库</div></div><div class="col-md-2"><a href="#" title="ajax"><img class="team-thumb img-circle" src="images/figure5.png" alt=""></a><h3>Ajax</h3><div class="job-position">异步JavaScript和XML</div></div><div class="col-md-2"><a href="#" title="angular.js"><img class="team-thumb img-circle" src="images/angular.jpg" alt=""></a><h3>AngularJs</h3><div class="job-position">框架</div></div></div></div></div><div class="container meet"><div class="row title"><div class="col-md-12"><img src="images/index5.jpg"><h1 id="folio-headline">作品集锦</h1></div></div><div class="row clearfix"><div class="col-md-10 col-md-offset-1"><div id="accordion"><div class="group"><h3>我的博客 <span>2016-07</span></h3><div>demo地址:<a href="https://firm66.github.io/blog/">https://firm66.github.io/blog/</a><p>用hexo和github搭建的个人技术博客，采用tranquilpeak主题，一直在优化和更新，这里有关于前端的学习路线，工具总结，软件安装，资源干货，随笔等，也记录着我在前端道路上的学习历程，我要努力把它打造成一个大牛级的技术博客。</p></div></div><div class="group"><h3>预报到系统 <span>2016-05</span></h3><div>demo地址:<a href="https://firm66.github.io/MyProject/%E5%AD%A6%E7%94%9F%E7%99%BB%E5%BD%95/">https://firm66.github.io/MyProject/学生登录/</a><p>新生网上预报到可以更快捷的办理入学手续，新生可以查看入学须知、报到流程、可以查询录取信息、课程专业情况、办理住宿、申请奖助学金等,主要功能由html5、css3、jquery实现。</p></div></div><div class="group"><h3>搭建wordpress主题博客 <span>2016-11</span></h3><div>demo地址:<a href="https://firm66.github.io/MyProject/">https://www.firm66.cn/</a><p>腾讯云域名正在备案，博客正在搭建中......</p></div></div><div class="group"><h3>作品集锦 <span>2016-10</span></h3><div>demo地址:<a href="https://firm66.github.io/MyProjec">https://firm66.github.io/blog/作品集锦</a><p>这里包含了对css，javascript，jquery特效的整理，平时练习的例子的总结。</p></div></div></div></div></div></div></div><!--main结束--><div class="col-md-12 footer"><div class="col-md-6 col-md-offset-3">关于本站 | 版权信息 | 留言反馈 | 帮助中心<br>Copyright&copy;2016 firm66. All Rights Reserved.</div></div><div id="returnTop"><img src="images/returnTop.gif" alt="放回顶部" title="返回顶部"></div></div><script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script><script type="text/javascript" src="js/jquery.mmenu.all.js"></script><script type="text/javascript" src="js/jquery.flexslider.js"></script><script type="text/javascript" src="js/o-script.js"></script><script type="text/javascript" src="js/jquery-ui.min.js"></script><script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script><!--bootstrap.js放在jqueryui.js后面--><script src="js/index.js" type="text/javascript" charset="utf-8"></script><!--文字跳动--><script type="text/javascript" src="js/jquery.bumpytext.packed.js"></script><script type="text/javascript" src="js/easying.js"></script><!--返回顶部--><script type="text/javascript" src="js/returnTop.js"></script><script type="text/javascript">$(function(){
+-->
+						</div>
+					</div>
+                    </div>
+                    </div>
+                    </div><!--row结束-->
+		</div><!--protfolio结束，services开始-->
+       <div class="container services">
+       <div class="row title">
+				<div class="col-md-12">
+         <img src="images/index2.jpg">
+        <h1>我的博客</h1></div></div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="row content">
+				<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-3">
+            <div class="align">
+            <img src="images/service1.jpg"> <br>
+                <a href="https://firm66.github.io/blog/2016/08/10/%E6%8A%80%E6%9C%AF%E6%9D%BF%E5%9D%97/"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="点击查看Blog教程">hexo+github搭建个人博客</button></a>
+            <p>搭建博客不难，前提是储备一些知识，比如会搭建Node服务器、安装并熟练使用Git，这样的话搭建配置两三天就可以完全搞定。接下来我们就可以像那些大牛一样写很多技术文章了，哈哈。</p>
+                  </div>
+				</div>
+					<div class="col-md-3">
+            <div class="align">
+            <img src="images/service2.png"><br>
+                <a href="https://firm66.github.io/blog/2016/08/22/%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E6%80%BB%E7%BB%93/"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="点击查看软件"> 好用的软件总结</button></a>
+            <p>本人比较爱好软件，下载安装一个软件就很有成就感，然后把一个软件玩熟了你会从中学到很多的知识。虽然不知道那些软件的原理和其中的奥秘，但是那些好玩有趣的东西确实需要我们去探索和发现。</p>
+                  </div>
+				</div>
+					<div class="col-md-3">
+            <div class="align">
+            <img src="images/service3.jpg"><br>
+                <a href="https://firm66.github.io/blog/2016/08/22/%E9%9D%92%E6%98%A5/"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="点击阅读全文">青春</button></a>
+            <p>《青春》塞缪尔•厄尔曼：青春不是年华，而是心境；青春不是桃面、丹唇、柔膝，而是深沉的意志，恢宏的想象，炙热的恋情；青春是生命的深泉在涌流。<br><br></p>
+                  </div>
+				</div>
+				<div class="col-md-3">
+            <div class="align">
+            <img src="images/service4.jpg"><br>
+                <a href="https://firm66.github.io/blog/2016/08/12/phpstudy%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="点击查看教程">phpstudy 安装教程</button></a>
+            <p>phpStudy是一个PHP调试环境的程序集成包。我们学前台的用来搭建服务器很好用，不过node更好用一点。。这里我们先学一下phpstudy安装。<br><br>
+            </p>
+                  </div>
+                    </div></div>
+			</div>
+		</div>
+	</div>
+	<div class="row title">
+				<div class="col-md-12">
+          <a href="https://firm66.github.io/blog/"><button type="button" class="btn btn-info lastbtn">进入博客主页
+          <img src="images/right.ico" alt="lastbtn">
+              </button></a>
+        </div></div>
+</div><!--services结束，-->
+       <div class="container mingyan">
+         <div class="row title">
+				<div class="col-md-12">
+         <img src="images/index3.jpg">
+        <h1>励志名言</h1></div></div>
+	<div class="row">
+		<div class="col-md-12 column mingyan_p">
+          <p class="example">
+          当你的才华还撑不起你的野心的时候，你就应该静下心来学习；
+          </p>
+          <p class="example">
+          当你的能力还驾驭不了你的目标时，你就应该沉下心来历练；</p>
+           <p class="example">
+          梦想，不是浮躁，而是沉淀和积累，只有拼出来的美丽，没有等出来的辉煌，
+          </p>
+          <p class="example">
+          机会永远是留给最渴望的那个人。
+          </p>
+        </div>
+           </div>
+        </div>
+        
+         <div class="container figure">
+	<div class="row title">
+	<div class="col-md-12">
+         <img src="images/index4.jpg">
+        <h1>代码整理</h1></div>
+        </div>
+        <div class="row content">
+		<div class="col-md-12">
+          <div class="col-md-2  col-md-offset-1">
+          <a href="#" title="css"><img class="team-thumb img-circle" src="images/figure2.jpg" alt=""></a>
+            <h3>CSS3</h3>
+            <div class="job-position">层叠样式表</div>
+          </div>
+          <div class="col-md-2">
+              <a href="#" title="javascript"><img class="team-thumb img-circle" src="images/figure3.jpg" alt=""></a>
+            <h3>JavaScript</h3>
+            <div class="job-position">脚本语言</div>
+          </div>
+          <div class="col-md-2">
+              <a href="#" title="jquery"><img class="team-thumb img-circle" src="images/figure4.png" alt=""></a>
+            <h3>JQuery</h3>
+            <div class="job-position">轻量级的js库</div>
+          </div>
+          <div class="col-md-2">
+              <a href="#" title="ajax"><img class="team-thumb img-circle" src="images/figure5.png" alt=""></a>
+            <h3>Ajax</h3>
+            <div class="job-position">异步JavaScript和XML</div>
+          </div>
+             <div class="col-md-2">
+            <a href="#" title="angular.js"><img class="team-thumb img-circle" src="images/angular.jpg" alt=""></a>
+            <h3>AngularJs</h3>
+            <div class="job-position">框架</div>
+          </div>
+        </div>
+           </div>
+        </div>
+        
+        <div class="container meet">
+        	<div class="row title">
+            <div class="col-md-12">
+         <img src="images/index5.jpg">
+        <h1 id="folio-headline">作品集锦</h1></div>
+        </div>
+	<div class="row clearfix">
+	<div class="col-md-10 col-md-offset-1">
+		<div id="accordion">
+  <div class="group">
+      <h3>我的博客  <span>2016-07</span></h3>
+    <div>
+      demo地址:<a href="https://firm66.github.io/blog/">https://firm66.github.io/blog/</a>
+      <p>用hexo和github搭建的个人技术博客，采用tranquilpeak主题，一直在优化和更新，这里有关于前端的学习路线，工具总结，软件安装，资源干货，随笔等，也记录着我在前端道路上的学习历程，我要努力把它打造成一个大牛级的技术博客。</p>
+    </div>
+  </div>
+  <div class="group">
+    <h3>预报到系统  <span>2016-05</span></h3>
+    <div>
+       demo地址:<a href="https://firm66.github.io/MyProject/%E5%AD%A6%E7%94%9F%E7%99%BB%E5%BD%95/">https://firm66.github.io/MyProject/学生登录/</a>
+      <p>新生网上预报到可以更快捷的办理入学手续，新生可以查看入学须知、报到流程、可以查询录取信息、课程专业情况、办理住宿、申请奖助学金等,主要功能由html5、css3、jquery实现。
+ </p>
+    </div>
+  </div>
+  <div class="group">
+    <h3>搭建wordpress主题博客  <span>2016-11</span></h3>
+    <div>
+      demo地址:<a href="http://www.firm66.cn/">http://www.firm66.cn/</a>
+      <p>腾讯云域名正在备案，博客正在搭建中......</p>
+    </div>
+  </div>
+  <div class="group">
+    <h3>作品集锦  <span>2016-10</span></h3>
+    <div>
+       demo地址:<a href="https://firm66.github.io/Show/demo.html">https://firm66.github.io/Show/demo.html</a>
+      <p> 这里包含了对css，javascript，jquery特效的整理，平时练习的例子的总结。</p>
+    </div>
+  </div>
+</div>	
+        </div>
+            </div>
+        </div>
+    	</div><!--main结束-->
+    	 <div class="col-md-12 footer">
+          <div class="col-md-6 col-md-offset-3">
+            关于本站 | 版权信息 | 留言反馈 | 帮助中心
+            <br> Copyright&copy;2016 firm66. All Rights Reserved. 
+    </div>
+    </div>
+     <div id="returnTop">
+    	<img src="images/returnTop.gif" alt="放回顶部" title="返回顶部" />
+      </div>
+    </div>
+<script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/o-script.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>  <!--bootstrap.js放在jqueryui.js后面-->
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	   <!--文字跳动-->                
+	<script type="text/javascript" src="js/jquery.bumpytext.packed.js"></script>
+   <script type="text/javascript" src="js/easying.js"></script>
+<!--返回顶部-->
+<script type="text/javascript" src="js/returnTop.js"></script>
+<script type="text/javascript">
+$(function(){
 	//调用返回顶部
 	$("#returnTop").returnTop({right:40,bottom:30});
-})</script></body></html>
+})	
+</script>
+</body>
+</html>
