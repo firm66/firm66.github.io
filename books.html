@@ -1,13 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta charset="UTF-8" />
-<title>firm66的书架</title>
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/index.css"/>
-<style type="text/css">
-    div#book{
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="UTF-8"><title>firm66的书架</title><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"><link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="css/index.css"><style type="text/css">div#book{
         margin-left:1%;
         margin-top:68px;
     }
@@ -44,89 +35,7 @@
      @media screen and (min-width:1560px) {
          div#book{margin-left:8%;}
          div#book_content{right:8%;}
-    }
-  
-    
-    </style>
-</head>
-<body ng-app='routingDemoApp'>
-<div id="index">
-       <div class="container header">
-	<div class="row">
-		<div class="col-md-12">
-			<nav class="navbar navbar-default" role="navigation">
-			<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html" title="firm66的主页">firm66</a>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-						<li>
-                         <a href="https://firm66.github.io/blog">
-                         <img src="images/blog.ico"> <!--32px-->博客主页</a>
-						</li>
-						<li>
-							 <a href="resume.html">
-							 <img src="images/resume.png"> 个人简历</a>
-						</li>
-						<li>
-							 <a href="books.html">
-							 <img src="images/lizhi.ico"> 我的书架</a>
-						</li>
-						<li>
-							 <a href="comments.html">
-							 <img src="images/liuyan.ico" > 留言板</a>
-						</li>
-						<li>
-							  <a href="other.html">
-							 <img src="images/other.ico"> 其他</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	</div>
-</div>
-</div>
- <div class="container" id="book">
-	<div class="row clearfix">   <!--利用bootstrap做响应式图片-->
-		<div class="col-md-12">
-      <img src="images/book2.jpg" id="book2" height="3123px" usemap="#Map" border="0" class="img-responsive center-block"/>  
-<map name="Map" id="Map">
-  <area shape="rect" title="Head First HTML 与 CSS" coords="64,47,224,249" href="#/book11"/>
-  <area shape="rect" title="HTML5秘籍" coords="312,48,474,247" href="#/book12" />
- <area shape="rect" title="CSS禅意花园" coords="65,295,225,495" href="#/book13"/>
- <area shape="rect" title="CSS设计指南" coords="311,294,472,495" href="#/book14"/>
- <area shape="rect" title="CSS实战手册" coords="531,295,691,496" href="#/book15"/>
-  <area shape="rect" title="JavaScript权威指南" coords="63,1049,225,1250" href="#/book21"/>
-  <area shape="rect" title="Head First JavaScript" coords="311,1049,472,1249" href="#/book22" />
-  <area shape="rect" title="JavaScript学习指南" coords="535,1047,697,1251" href="#/book23"/>
-  <area shape="rect" title="JavaScript DOM编程艺术" coords="783,1049,945,1249" href="#/book24" />
-  <area shape="rect" title="JavaScript入门经典" coords="64,1297,224,1498" href="#/book25" />
-  <area shape="rect" title="JavaScript基础教程" coords="312,1294,471,1493" href="#/book26" />
-  <area shape="rect" title="JavaScript高级程序设计" coords="536,1295,696,1497" href="#/book27" />
-  <area shape="rect" title="JQuery基础教程" coords="64,1540,224,1740" href="#/book28" />
-  <area shape="rect" title="JQuery实战" coords="312,1538,472,1742" href="#/book29" />
-  <area shape="rect" title="了不起的Node.js" coords="64,2060,225,2259" href="#/book31" />
-  <area shape="rect" title="响应式Web设计" coords="311,2060,471,2261" href="#/book32" />
-  <area shape="rect" title="精通CSS高级web标准解决方案" coords="782,292,942,494" href="#/book16" />
-  <area shape="rect" title="Head First JQuery" coords="532,1542,694,1741" href="#/book2a" />
-  <area shape="rect" title="JavaScript&JQuery交互式web前端开发" coords="781,1542,942,1741" href="#/book2b" />
-</map>
-        </div></div></div>
-  <div id="book_content" ng-view></div>  <!--显示书的信息-->
-      <div class="col-md-12 footer">
-          <div class="col-md-6 col-md-offset-3">
-          关于本站 | 版权信息 | 留言反馈 | 帮助中心
-            <br> Copyright&copy;2016 firm66. All Rights Reserved. 
-    </div>
-    </div>
-     
-<script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/angular-route.js" type="text/javascript" charset="utf-8"></script>  <!--利用angular-->
-        <script type="text/javascript">
-            angular.module('routingDemoApp',['ngRoute'])
+    }</style></head><body ng-app="routingDemoApp"><div id="index"><div class="container header"><div class="row"><div class="col-md-12"><nav class="navbar navbar-default" role="navigation"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html" title="firm66的主页">firm66</a></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav navbar-right"><li><a href="https://firm66.github.io/blog"><img src="images/blog.ico"><!--32px--> 博客主页</a></li><li><a href="resume.html"><img src="images/resume.png"> 个人简历</a></li><li><a href="books.html"><img src="images/lizhi.ico"> 我的书架</a></li><li><a href="comments.html"><img src="images/liuyan.ico"> 留言板</a></li><li><a href="other.html"><img src="images/other.ico"> 其他</a></li></ul></div></nav></div></div></div></div><div class="container" id="book"><div class="row clearfix"><!--利用bootstrap做响应式图片--><div class="col-md-12"><img src="images/book2.jpg" id="book2" height="3123px" usemap="#Map" border="0" class="img-responsive center-block"><map name="Map" id="Map"><area shape="rect" title="Head First HTML 与 CSS" coords="64,47,224,249" href="#/book11"><area shape="rect" title="HTML5秘籍" coords="312,48,474,247" href="#/book12"><area shape="rect" title="CSS禅意花园" coords="65,295,225,495" href="#/book13"><area shape="rect" title="CSS设计指南" coords="311,294,472,495" href="#/book14"><area shape="rect" title="CSS实战手册" coords="531,295,691,496" href="#/book15"><area shape="rect" title="JavaScript权威指南" coords="63,1049,225,1250" href="#/book21"><area shape="rect" title="Head First JavaScript" coords="311,1049,472,1249" href="#/book22"><area shape="rect" title="JavaScript学习指南" coords="535,1047,697,1251" href="#/book23"><area shape="rect" title="JavaScript DOM编程艺术" coords="783,1049,945,1249" href="#/book24"><area shape="rect" title="JavaScript入门经典" coords="64,1297,224,1498" href="#/book25"><area shape="rect" title="JavaScript基础教程" coords="312,1294,471,1493" href="#/book26"><area shape="rect" title="JavaScript高级程序设计" coords="536,1295,696,1497" href="#/book27"><area shape="rect" title="JQuery基础教程" coords="64,1540,224,1740" href="#/book28"><area shape="rect" title="JQuery实战" coords="312,1538,472,1742" href="#/book29"><area shape="rect" title="了不起的Node.js" coords="64,2060,225,2259" href="#/book31"><area shape="rect" title="响应式Web设计" coords="311,2060,471,2261" href="#/book32"><area shape="rect" title="精通CSS高级web标准解决方案" coords="782,292,942,494" href="#/book16"><area shape="rect" title="Head First JQuery" coords="532,1542,694,1741" href="#/book2a"><area shape="rect" title="JavaScript&JQuery交互式web前端开发" coords="781,1542,942,1741" href="#/book2b"></map></div></div></div><div id="book_content" ng-view></div><!--显示书的信息--><div class="col-md-12 footer"><div class="col-md-6 col-md-offset-3">关于本站 | 版权信息 | 留言反馈 | 帮助中心<br>Copyright&copy;2016 firm66. All Rights Reserved.</div></div><script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script><script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script><script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script><script src="js/angular-route.js" type="text/javascript" charset="utf-8"></script><!--利用angular--><script type="text/javascript">angular.module('routingDemoApp',['ngRoute'])
             .config(['$routeProvider', function($routeProvider){
                 $routeProvider
                 .when('/',{template:'欢迎光临firm66的书架,<br>请查看各书的简介'})
@@ -147,6 +56,11 @@
                 .when('/book2b',{template:'你是一名JavaScript新手?或是您曾经向自己的Web页面上添加过一些脚本，但想以一种更好的方式来实现它们？本书非常适合您。本书不仅向您展示如何阅读和编写JavaScript代码，同时还会以一种简单且视觉化的方式，教您有关计算机编程的基础知识。'})
                  .when('/book31',{template:'本书主要由五大部分组成：Node核心设计理念、Node核心模块API、Web开发、数据库以及测试。从前到后、由表及里地对使用Node进行Web开发的每一个环节都进行了深入的讲解，并且较大的特点就是通过大量的实际案例、代码展示来剖析技术点，讲解优秀实践。'}) 
                 .when('/book32',{template:'本书将当前Web设计中热门的响应式设计技术与HTML5和CSS3结合起来，全面讲解了针对各种屏幕大小设计和开发现代网站的各种技术。不仅讨论了媒体查询、流式布局、相对字体、响应式媒体，更将HTML5和CSS3的相关知识点一并讲解，是学习最新Web设计技术不可多得的佳作。'})  
+                .otherwise({redirectTo:'/'});
+            }]);</script><!--bug链接不能重复点击--><script type="text/javascript">//响应式图片，同时需要加两个类
+   $(document).ready(function(){ 
+    $(".book_img img").addClass("img-responsive center-block");
+     });</script></body></html>3结合起来，全面讲解了针对各种屏幕大小设计和开发现代网站的各种技术。不仅讨论了媒体查询、流式布局、相对字体、响应式媒体，更将HTML5和CSS3的相关知识点一并讲解，是学习最新Web设计技术不可多得的佳作。'})  
                 .otherwise({redirectTo:'/'});
             }]);
         </script>
