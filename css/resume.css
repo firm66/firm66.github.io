@@ -1,1 +1,313 @@
-.resumeheader2,.resumeheader2 .navbar-nav>.active>a,.resumeheader2 .navbar-nav>.active>a:hover{background:rgba(0,0,0,.3)}#resume_left img.person,#section2,.footer{box-sizing:border-box}blockquote,body,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,html,input,li,ol,p,pre,span,td,textarea,th,ul{margin:0;padding:0}li,ul{list-style-type:none}img{border:0}body{position:relative;font-size:16px;font-weight:400;font-family:"microsoft yahei",Helvetica,Verdana,sans-serif}.resumeheader1 .navbar-brand,.resumeheader2 .navbar-brand{font:italic 30px Georgia,Times,Serif;color:#bfe1f1;text-shadow:0 2px 6px #333;line-height:20px}.resumeheader1 .navbar-brand:hover,.resumeheader2 .navbar-brand:hover{color:#f2f2f2}.resumeheader1{position:fixed;top:0;left:0;right:0;display:none}.resumeheader2{text-shadow:0 1px 3px #666}div.clearfix{margin-left:0;margin-right:0}#section1{height:798px;background:url(../images/9PE.png) no-repeat fixed;background-size:100% 798px}#section1 h1.describe,#section1 h3{color:#fff;text-align:center}#section1 h1.describe{margin-top:22%;font-family:Georgia,Helvetica,Verdana,sans-serif;text-shadow:1px 1px 0 #CCC,2px 2px 0 #CCC,3px 3px 0 #444,4px 4px 0 #444,5px 5px 0 #444,6px 6px 0 #444}#section1 h3{font-size:26px;font-weight:600;font-family:Arial,Helvetica,Verdana,sans-serif;text-shadow:2px 2px 2px #bfe1f1}#section1 .introduce{margin-top:10px;background:rgba(0,0,0,.3);border:1px solid #aaa;border-radius:10px;box-shadow:0 0 20px #888}#section1 .introduce .btn{margin:15px 0 15px 10%;box-shadow:2px 2px 8px #333}#section1 .introduce .btn a{color:#333}#section1 .introduce .btn a:hover{color:#008b8b}#resume_left{background:url(../images/resume_left.jpg) no-repeat;background-size:100%;height:auto}#resume_left img.person{margin-top:180px;width:164px;height:220px;border:5px solid gray;box-shadow:0 0 8px #fff}#resume_left h1{margin-top:20px;text-align:center}#resume_left p{text-align:center;color:#000;text-shadow:0 0 8px #bfe1f1}#resume_left ul a{color:#333;font-size:20px;line-height:40px}#resume_left ul a:hover{color:#696969}#resume_left ul img,#section2 h3.panel-title img,#section3 h3.panel-title img,#section4 h3.panel-title img,#section5 h3.panel-title img,#section6 h3.panel-title img{width:24px;height:24px}#resume_right{padding-left:0;padding-right:0;background:url(../images/resume_right.jpg) fixed}#section2{padding-top:20px}#section3,#section4,#section5,#section6{padding-top:1px;box-sizing:border-box}#section2 .panel-heading.special,#section3 .panel-heading,#section4 .panel-heading,#section5 .panel-heading.special,#section6 .panel-heading{background:url(../images/noname.png) no-repeat;background-size:200px 100%}#section2 .media-object,#section3 .media-object,#section4 .media-object{width:180px;height:200px;margin-top:20px;margin-left:10px;border:1px solid #999;box-shadow:0 0 2px #909090}#section2 .media-object:hover,#section3 .media-object:hover,#section4 .media-object:hover{box-shadow:0 0 12px #666}#section2 .col-sm-12 .panel{background:url(../images/Blur-1.png) no-repeat;border:none}#section3 .media-object{margin-top:60px}#section3 .col-sm-12 .panel{background:url(../images/Blur-2.png) no-repeat;border:none}#section4 .col-sm-12 .panel{background:url(../images/Blur-3.png) no-repeat;border:none}#section4 h4.experience_title{color:#FFF;font-size:20px;padding-bottom:4px}#section4 .caption a{font-size:16px}#section4 .caption span{color:#999;font-size:14px}#section4 .experience .col-md-3{padding-left:5px;padding-right:5px}#section5 .col-sm-12 .panel{background:url(../images/Blur-4.png) no-repeat;border:none}#section6 .col-sm-12 .panel{background:url(../images/Blur-5.png) no-repeat}h3.panel-title{font-size:20px;font-weight:500;color:#333}.footer{height:60px;background:url(../images/bg.jpg);color:#ababab;text-align:center;padding-top:10px;line-height:24px}@media screen and (max-width:768px){#resume_left img.person,#section2 .media-object,#section3 .media-body #section3_echarts,#section3 .media-object,#section4 .media-object{display:none}#section2,#section3,#section4,#section5,#section6{padding-top:4px;box-sizing:border-box}#section1{height:400px;background-size:100% 400px;background-attachment:fixed}#section1 h1.describe,#section1 h3{font-size:20px}#resume_left ul a,#section6{font-size:18px}#resume_left{background:url(../images/resume_left1.jpg) no-repeat;background-size:100% 400px;height:400px}#section3 .media-body{height:160px;background:url(../images/media_body.png) no-repeat;background-size:100% 160px}#section2{padding-top:10px;box-sizing:border-box}#section3,#section4,#section5,#section6{margin-top:-10px;box-sizing:border-box}#resume_right #section2 .col-sm-12,#resume_right #section3 .col-sm-12,#resume_right #section4 .col-sm-12,#resume_right #section5 .col-sm-12,#resume_right #section6 .col-sm-12{padding-left:0;padding-right:0}.footer{padding-top:5px;font-size:14px;line-height:18px}}@media only screen and (min-width:768px) and (max-width:992px){#resume_left h1,#resume_left p{text-align:left}#section1{height:520px;background-size:100% 520px;background-attachment:fixed}#section1 h1.describe{font-size:24px}#section1 h3{font-size:20px}#section1 .introduce .btn{margin-left:8%}.resumeheader1 .nav>li>a,.resumeheader2 .nav>li>a{padding:15px 6px}#resume_left{background:url(../images/resume_left2.jpg) no-repeat;background-size:100% 400px;height:400px;box-sizing:border-box}#resume_left img.person{display:block;margin-top:100px}#resume_left h1{margin-top:20px}#resume_left ul a{font-size:24px}#section3 .media-body #section3_echarts{display:none}#section3 .media-body{height:390px;background:url(../images/media_body.png) no-repeat;background-size:100% 390px}}@media screen and (min-width:992px) and (max-width:1200px){#resume_left{background:url(../images/resume_left.jpg) no-repeat;background-size:100%}#resume_left img.person{display:block}#resume_left h1{margin-top:20px}#resume_left ul a{font-size:16px}#section1 .introduce .btn{margin-left:6%}#section4 .experience .col-md-3{padding-left:0;padding-right:0}}@media screen and (width:992px){#resume_left{background:url(../images/resume_left.jpg);background-size:100% 2035px;height:2035px}#resume_left h1,p{text-align:center}#section4 .caption p{font-size:14px}}
+html,body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p,span, blockquote, th, td, textarea, input { 
+    margin:0;
+    padding:0;
+}
+ul,li{list-style-type: none;}
+img{border:0;}
+body {
+      position: relative; 
+      font-size: 16px;
+     font-weight: normal;
+      font-family:"microsoft yahei", Helvetica, Verdana, sans-serif;
+  }  /*设置滚动监听*/
+.resumeheader1 .navbar-brand,.resumeheader2 .navbar-brand{  /*设置头部*/ 
+	font: italic 30px Georgia, Times, Serif;
+    color: #bfe1f1;
+    text-shadow: 0px 2px 6px #333;
+    line-height:20px;
+}
+.resumeheader1 .navbar-brand:hover,.resumeheader2 .navbar-brand:hover{
+	 color:#f2f2f2;
+}
+ .resumeheader1{  /*黑色的是1，透明色是2*/
+ 	position:fixed;
+ 	top:0;left:0;right:0;
+ 	display: none;
+ }
+ .resumeheader2{
+ 	background:rgba(0,0,0,0.3);
+    text-shadow: 0px 1px 3px #666;
+ } 
+ .resumeheader2 .navbar-nav > .active > a, 
+ .resumeheader2 .navbar-nav > .active > a:hover{
+ 	background:rgba(0,0,0,0.3);/*颜色叠加*/
+ }
+div.clearfix{  /*整体宽度不会超出*/
+	margin-left:0px;
+    margin-right:0px;
+}
+#section1 {
+      height:798px;
+      background:url(../images/9PE.png) no-repeat;
+      background-size: 100% 798px;
+      background-attachment: fixed;/*背景不随着滚动*/
+  }
+#section1 h1.describe,#section1 h3{
+       color:#fff;
+	   text-align:center;
+}
+#section1 h1.describe{
+	margin-top:22%;
+    font-family:Georgia,Helvetica, Verdana, sans-serif;
+   text-shadow:
+1px 1px 0 #CCC,
+2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
+3px 3px 0 #444,
+4px 4px 0 #444,
+5px 5px 0 #444,
+6px 6px 0 #444; /* end of 4 level deep dark shadow */ 
+}
+#section1 h3{
+    font-size:26px;
+    font-weight: 600;
+    font-family: Arial,Helvetica, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px  #bfe1f1;
+}
+#section1 .introduce{
+     margin-top:10px;
+	 background: rgba(0,0,0,0.3);
+	 border:1px solid #aaaaaa;
+     border-radius: 10px;
+     box-shadow:0px 0px 20px #888;
+}
+#section1 .introduce .btn{
+	 margin:15px 0;
+	 margin-left:10%;  /*设置距离*/
+     box-shadow:2px 2px 8px #333;
+}
+#section1 .introduce .btn a{
+    color:#333;
+}
+#section1 .introduce .btn a:hover{
+   color:darkcyan;
+}
+#resume_left{
+    background: url(../images/resume_left.jpg) no-repeat;
+    background-size:100%;
+     height:auto; 
+}
+#resume_left img.person{
+    margin-top:180px;
+    box-sizing: border-box;
+	width:164px;
+    height: 220px;
+    border:5px solid gray;
+    box-shadow:0px 0px 8px #fff;
+}
+#resume_left h1{
+    margin:20px 0px 6px 0px; 
+    text-align: center;
+}
+#resume_left p{
+    text-align: center;
+    color:#222;
+    font-size: 18px;
+    text-shadow: 0px 0px 8px #bfe1f1;
+}
+#resume_left ul li,#resume_left ul li a{ /*注意*/
+    color:#333;
+    font-size: 18px;
+    line-height:40px;
+}
+#resume_left ul a:hover{
+    color:dimgrey;
+}
+#resume_left ul img,#section2 h3.panel-title img,#section3 h3.panel-title img,#section4 h3.panel-title img,#section5 h3.panel-title img,#section6 h3.panel-title img{   /*图标*/
+    width:24px; 
+    height:24px;
+}
+#resume_right {
+    padding-left:0;
+    padding-right:0;
+  background: url(../images/resume_right.jpg) repeat;
+   background-attachment: fixed;/*背景不随着滚动*/
+}
+#section2{
+     padding-top:20px;
+      box-sizing: border-box;
+}
+#section2 .panel-heading,#section3 .panel-heading,#section4 .panel-heading,#section5 .panel-heading,#section6 .panel-heading.special{
+    background-color:transparent;
+    border-bottom: 2px solid gray;
+}
+#section2 .panel,#section3 .panel,#section4 .panel,#section5 .panel,#section6 .panel{
+    background-color:transparent;
+    border:none;
+    margin-bottom: 0px;
+}
+#section2 .panel-body,#section5 .panel-body{
+	font-size: 18px;
+}
+#section2  p span{
+    margin-left: 50px;
+}
+#section4 .group { zoom: 1; font-family:"microsoft yahei", Helvetica, Verdana, sans-serif; }  /*jQuery-ui折叠面板*/
+#section4 .group h3{
+   font-weight:500;
+    font-size: 18px;
+}
+#section4  .group a{
+	color:darkcyan; 
+    font-size: 18px;
+}
+#section4  .group span{
+    font-size: 14px;
+    color:#999;
+    padding-left: 10px;
+}
+#section4 .group div{
+    height: 100px;
+}
+#section4 .col-md-12{
+    padding-right: 0;
+    padding-left: 0;
+}
+#section5 .panel-body ul li{
+    line-height: 30px;
+}
+#section5 .panel-body ul li a{
+    color:#333;
+}
+h3.panel-title{
+    font-size:20px;
+    font-weight:600;
+    color:#33475f;
+}
+.footer{
+    height:60px;
+   background: url(../images/bg.jpg) repeat;
+    color:#ababab;
+    text-align: center;
+    padding-top:10px;
+    box-sizing: border-box;
+    line-height:24px;
+}
+/*小于768px,768px-991px时 #resume_left 都是100%*/
+@media screen and (max-width:768px){
+#section1 {
+      height:400px;
+      background-size: 100% 400px;
+      background-attachment: fixed;/*背景不随着滚动*/
+  }
+#section1 h1.describe{
+     font-size: 20px;   
+}
+#section1 h3{
+    font-size:20px;
+}
+#resume_left{
+    background: url(../images/resume_left1.jpg) no-repeat;
+    background-size:100% 400px;
+    height:400px; /**/
+}
+#resume_left img.person{
+   display: none;/*隐藏*/
+}  
+#section2  p span{
+    margin-left:0px;
+    font-size: 16px;
+}
+#section3 .media-body #section3_echarts{
+	display:none;
+}
+#section3 .media-body { /*图表用背景图片代替*/
+	height:160px;
+    background:url(../images/media_body.png) no-repeat;
+    background-size: 100% 160px; /*设置一下高度，才能完全显示出来*/
+}
+#section5 .panel-body ul li{
+  font-size: 16px;
+}
+#section6 {
+	font-size: 18px;
+}
+#resume_right #section2 .col-sm-12,#resume_right #section3 .col-sm-12,#resume_right #section4 .col-sm-12,#resume_right #section5 .col-sm-12,
+#resume_right #section6 .col-sm-12{  /**/
+    padding-left: 0;
+    padding-right: 0;
+}  
+.footer{
+    padding-top:5px;
+    font-size: 14px;
+    line-height:18px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:992px) {
+#section1 {
+      height:520px;
+      background-size: 100% 520px;
+      background-attachment: fixed;/*背景不随着滚动*/
+  }
+#section1 h1.describe{
+     font-size: 24px;   
+}
+#section1 h3{
+    font-size:20px;
+}
+ #section1 .introduce .btn{
+	 margin-left:8%;  /*设置距离*/
+}
+.resumeheader1 .nav>li>a,.resumeheader2 .nav>li>a{
+        padding:15px 6px;
+}
+#resume_left{
+    background:url(../images/resume_left2.jpg) no-repeat;
+    background-size:100% 400px;
+    height:400px; 
+    box-sizing: border-box;
+}
+#resume_left img.person{
+    display: block;
+    margin-top:100px;
+} 
+#resume_left h1{
+    text-align: left;
+    margin-top:20px;
+}
+#resume_left p{
+    text-align: left;
+}   
+#section3 .media-body #section3_echarts{
+	display:none;
+}
+#section3 .media-body { /*图表用背景图片代替*/
+	height:390px;
+    background:url(../images/media_body.png) no-repeat;
+    background-size: 100% 390px;
+}
+}
+@media screen and (min-width:992px) and  (max-width:1200px) {
+#resume_left{
+    background:url(../images/resume_left.jpg) no-repeat;
+    background-size:100%; 
+} 
+#resume_left img.person{
+     display: block;
+}
+#resume_left h1{
+     margin-top:20px;
+}
+#resume_left ul li a{
+	 font-size: 16px;  
+}  
+#section1 .introduce .btn{
+	 margin-left:6%;  /*设置距离*/
+}   
+#section4 .experience .col-md-3{
+    padding-left:0px;
+    padding-right:0px;
+}
+}
+@media screen and (width:992px){  /*993px-1009px #resume_left */
+#resume_left{
+    background: url(../images/resume_left.jpg) repeat;
+    background-size:100% 1432px;
+    height:1432px;
+}
+#resume_left h1,p{
+  text-align: center;
+}
+#resume_left ul li,#resume_left ul li a{
+	 font-size: 16px;  
+}  
+}
