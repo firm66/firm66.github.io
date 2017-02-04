@@ -64,7 +64,7 @@ var myChart = echarts.init(document.getElementById('section3_echarts'));
             axisTick: {
             	show: false  //不显示x轴刻度
             },
-            data: ['HTML5', 'CSS3', 'JS', 'JQuery', 'Ajax', 'Bootstrap', 'JQueryUI', 'AngularJs', 'PS', 'Git', 'Echarts']
+           data: ['HTML5', 'CSS3', 'JS', 'JQuery', 'Ajax', 'Bootstrap', 'JQueryUI','PS', 'AngularJs',  'Git', 'Echarts']
         }
     ],
     yAxis: [
@@ -89,9 +89,9 @@ var myChart = echarts.init(document.getElementById('section3_echarts'));
                 normal: {
                     color: function(params) {
                         // build a color map as your need.
-                        var colorList = [
-                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',
-                           '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',
+                       var colorList = [
+                          '#C1232B','#00C334','#FCCE10','#E87C25','#727829',
+                           '#FE8463','#00727B','#808850','#A7543B','#2D4A97',
                            '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'
                         ];
                         return colorList[params.dataIndex]
@@ -108,7 +108,7 @@ var myChart = echarts.init(document.getElementById('section3_echarts'));
                   barBorderRadius: 4,  //  
                 }
             },
-            data: [5,4,3,4,3,4,4,2,4,4,3],
+           data: [5,4,3,4,3,4,4,3,2,4,3],
             animationDuration: 3000, //初始动画时长
         }
     ]

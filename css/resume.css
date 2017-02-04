@@ -162,11 +162,16 @@ div.clearfix{  /*整体宽度不会超出*/
     padding-right: 0;
     padding-left: 0;
 }
-#section5 .panel-body ul li{
+#section5 .panel-body ul li,#section6 .panel-body ul li{
     line-height: 30px;
 }
-#section5 .panel-body ul li a{
+#section5 .panel-body ul li a,#section6 .panel-body ul li a{
     color:#333;
+}
+#section5 .panel-body ul li a:hover,
+#section6 .panel-body ul li a:hover{
+    color:dodgerblue;
+   transition:all 0.3s;
 }
 h3.panel-title{
     font-size:20px;
